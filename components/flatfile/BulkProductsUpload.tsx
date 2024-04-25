@@ -36,9 +36,6 @@ export interface Options {
     state_name: string
     state_code: string
     vendor_name: any
-    published_at: string
-    created_at: string
-    updated_at: string
     no_ship_alcohol: boolean
     show_state: boolean
   }[]

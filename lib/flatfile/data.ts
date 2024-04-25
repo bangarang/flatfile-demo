@@ -1,4 +1,5 @@
-export const FLATFILE_THEME_LOGO = 'https://www.cocktailcourier.com/logo-cc-orange.svg'
+export const FLATFILE_THEME_LOGO =
+  'https://www.cocktailcourier.com/logo-cc-orange.svg'
 
 /**
  * Regular expression pattern for matching dates in MM/DD/YYYY format.
@@ -147,16 +148,16 @@ export const DEMO_FAKE_DATA = {
   alcoholCategoryId: 1,
   products: [
     {
-      name: 'Birthday Cake Cocktail + Candy Gift -  Mini',
-      sku: 'KV0822BIRMN2',
-      categories: [24, 28, 30, 35, 43, 59, 65, 66, 131, 197, 210, 214],
-      id: '1707',
+      name: 'Title 123123',
+      sku: '123123',
+      categories: [1, 2, 3],
+      id: '1',
     },
     {
-      name: 'Good Apple Coqutio - Deluxe',
-      sku: 'CC-GYMKALRG01',
-      categories: [26, 30, 57, 131, 197],
-      id: '2999',
+      name: 'Name 121212',
+      sku: '121212',
+      categories: [1, 2, 3, 4],
+      id: '2',
     },
   ],
   states: [
@@ -165,9 +166,6 @@ export const DEMO_FAKE_DATA = {
       state_name: 'Ohio',
       state_code: 'OH',
       vendor_name: null,
-      published_at: '2021-11-26T13:07:26.846Z',
-      created_at: '2021-11-26T13:06:43.560Z',
-      updated_at: '2022-01-04T10:03:35.645Z',
       no_ship_alcohol: true,
       show_state: true,
     },
@@ -176,9 +174,6 @@ export const DEMO_FAKE_DATA = {
       state_name: 'North Carolina',
       state_code: 'NC',
       vendor_name: null,
-      published_at: '2021-11-26T13:07:26.846Z',
-      created_at: '2021-11-26T13:06:43.560Z',
-      updated_at: '2022-02-11T11:33:42.615Z',
       no_ship_alcohol: true,
       show_state: true,
     },
