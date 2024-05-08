@@ -1,4 +1,5 @@
-import api, { Flatfile } from '@flatfile/api'
+'use client'
+import { Flatfile, FlatfileClient } from '@flatfile/api'
 import { recordHook } from '@flatfile/plugin-record-hook'
 import {
   Space,
@@ -165,6 +166,7 @@ export const BulkProductsUpload = ({
             config={workbookConfig}
             onSubmit={async (sheet) => {
               try {
+                const api = new FlatfileClient();
                 if (sheet?.sheet?.sheetId) {
                   const recordData = await api.records.get(sheet.sheet.sheetId)
 
